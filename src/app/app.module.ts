@@ -3,12 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { MzChipModule } from 'ngx-materialize'
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MzChipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
